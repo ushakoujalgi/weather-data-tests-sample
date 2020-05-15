@@ -72,6 +72,7 @@ def test_case_4(weather_data):
     else:
         print(" Failed \n All weather IDs: 500 does not have description - light rain!")
 
+        
 def test_case_5(weather_data):
     print("\n\n--------- \n Test Case 5: \n ---------")
     validity = False
