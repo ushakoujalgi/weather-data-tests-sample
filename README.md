@@ -4,7 +4,7 @@ https://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,us&appid=b6
 
 The above API is the REST GET API Which gives you the response in JSON format and hourly weather forecast of London Location
 
-I want you to automate the below test cases for all the available data
+Automate the below test cases for all the available data
 1. Is the response contains 4 days of data
 2. Is all the forecast in the hourly interval ( no hour should be missed )
 3. For all 4 days, the temp should not be less than temp_min and not more than temp_max
